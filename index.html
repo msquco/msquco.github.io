@@ -241,6 +241,56 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/cookie.notice.min.js"></script>
+
+			    <script>
+			        new cookieNoticeJS({
+
+			           // Localizations of the notice message
+			           'messageLocales': {
+			             'it': 'Custom localized message'
+			           },
+
+			           // Localizations of the dismiss button text
+			           'buttonLocales': {
+			             'it': 'Chiudi'
+			           },
+
+			           // Position for the cookie-notifier (default=bottom)
+			           'cookieNoticePosition':'bottom',
+
+			           // Shows the "learn more button (default=false)
+			           'learnMoreLinkEnabled':true,
+
+			           // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
+			           'learnMoreLinkHref':'policy.html',
+
+			           // Text for optional learn more button
+			           'learnMoreLinkText':{
+			               'en':'learn more'
+			           },
+
+			           // The message will be shown again in X days
+			           'expiresIn': 30,
+
+			           // Dismiss button background color
+			           'buttonBgColor': '#4eb980',
+
+			           // Dismiss button text color
+			           'buttonTextColor': '#fff',
+
+			           // Notice background color
+			           'noticeBgColor': '#000',
+
+			           // Notice text color
+			           'noticeTextColor': '#fff',
+
+			           // the lernMoreLink color (default='#009fdd')
+			           'linkColor':'#fff'
+
+			        });
+			    </script>
+
 
 	</body>
 </html>
